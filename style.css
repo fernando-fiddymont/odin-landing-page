@@ -61,7 +61,8 @@ ul {
     justify-content: space-between;
     padding: 10px;
     background: #1F2937;
-    padding: 20px 200px;
+    padding: 100px 200px;
+
 }
 
 #hero-text {
@@ -85,8 +86,11 @@ ul {
     flex-direction: column;
     align-items: center;
     gap: 20px;
-    padding: 20px 200px;
+    padding: 100px 300px;
+}
 
+.section#info {
+    padding-top: 40px;
 }
 
 .info-cards {
@@ -121,6 +125,21 @@ ul {
 .info-description {
     text-align: center;
     width: 150px;
+}
+
+.section#quote {
+    background-color: #E5E7EB;
+}
+.quote-text {
+    font-size: 36px;
+    font-style: italic;
+    color:#1F2937;
+}
+.quote-author {
+    align-self: flex-end;
+    font-size: 36px;
+    font-weight: 800;
+    color:#1F2937;
 }
 
 button {
